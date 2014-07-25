@@ -1,3 +1,3 @@
 describe('WeatherService', function() {
-  // We'll also fill this in
-})
+  // Exercise for you to fill out at home
+});
