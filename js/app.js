@@ -17,8 +17,6 @@ angular.module('myApp', [])
   };
 })
 .controller('HomeController', function($scope, WeatherService) {
-  // Fill in the blanks to get weather
-  // on to the scope
   $scope.city = "San Francisco, CA";
   WeatherService.getWeather($scope.city)
   .then(function(data) {
